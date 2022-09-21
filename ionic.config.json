@@ -1,0 +1,7 @@
+{
+  "name": "Nasa Api",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
