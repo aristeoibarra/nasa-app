@@ -1,0 +1,39 @@
+.apod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.apod__card {
+  max-width: 750px;
+}
+
+.apod__card__image {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apod__card__text p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.apod__card__image img {
+  width: 300px;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .apod__card {
+    padding: 1rem;
+  }
+}
