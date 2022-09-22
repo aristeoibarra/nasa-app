@@ -1,0 +1,10 @@
+ion-row.table-header {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+ion-row.table-row {
+  padding: 10px 0;
+  border-bottom: 1px solid #f4f5f8;
+}
