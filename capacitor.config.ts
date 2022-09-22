@@ -2,7 +2,7 @@ import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
   appId: "io.ionic.starter",
-  appName: "Nasa Api",
+  appName: "Nasa App",
   webDir: "build",
   bundledWebRuntime: false,
 };

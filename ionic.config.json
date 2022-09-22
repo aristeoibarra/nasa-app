@@ -1,5 +1,5 @@
 {
-  "name": "Nasa Api",
+  "name": "Nasa App",
   "integrations": {
     "capacitor": {}
   },
