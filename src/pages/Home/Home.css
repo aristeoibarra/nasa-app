@@ -1,0 +1,26 @@
+ion-thumbnail {
+  --size: 200px;
+}
+.home {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.home__description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .home {
+    margin-top: 3rem;
+  }
+}

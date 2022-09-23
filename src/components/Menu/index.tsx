@@ -24,7 +24,7 @@ const Menu: React.FC = () => {
     >
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader className="ion-padding-bottom">Nasa App</IonListHeader>
+          <IonListHeader className="ion-padding">Nasa App</IonListHeader>
           {routes.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>

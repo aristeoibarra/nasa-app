@@ -49,7 +49,8 @@
     "eject": "react-scripts eject",
     "start-build": "servor build",
     "eslint": "eslint src --ext .js,.jsx,.ts,.tsx",
-    "eslint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix"
+    "eslint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "start:ios": "ionic capacitor run ios -l --external"
   },
   "eslintConfig": {
     "extends": [
