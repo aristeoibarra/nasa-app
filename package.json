@@ -75,7 +75,7 @@
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.40.0",
-    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react": "^7.33.0",
     "servor": "4.0.0"
   },
   "description": "A simple Ionic React application that uses the NASA API"
